@@ -237,7 +237,7 @@ function render() {
           </div>
 
           <button class="trash-btn mt-1 shrink-0" onclick="deleteJob(${job.id})">
-            <img src="/assets/delete-icon.png" class="w-5 h-5">
+            <img src="./assets/delete-icon.png" class="w-5 h-5">
           </button>
         </div>
 

@@ -12,12 +12,15 @@ But results we will receive in a nodeList, not in an array or HtmlCollection.
 
 2. How do you create and insert a new element into the DOM?
 Answer-2:
+We can use the 'document.createElement()' method to create element in a html document. 
+Example: 
+    const div = document.createElement("div");
 
 
 
 3. What is Event Bubbling? And how does it work?
 Answer-3:
-
+When we click an element, the event doesn't just happen on that element, it bubbles up throught its parent elements. Say, we have a button inside a div name box1. A click on the button will move up to the box1 div, then then body element and the the whole html docuemnt.
 
 4. What is Event Delegation in JavaScript? Why is it useful?
 Answer-4:

@@ -28,3 +28,7 @@ Event delegation is a pattern where, if we attach a single event listener to a p
 
 5. What is the difference between preventDefault() and stopPropagation() methods?
 Answer-5:
+
+preventDefault() stops the browser’s default behavior. Buat it does not stop the event from bubbling.
+
+event.stopPropagation() will stop the event from bubbling but will not stop the default browser behaviour.

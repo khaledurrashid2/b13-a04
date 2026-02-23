@@ -24,7 +24,7 @@ When we click an element, the event doesn't just happen on that element, it bubb
 
 4. What is Event Delegation in JavaScript? Why is it useful?
 Answer-4:
-
+Event delegation is a pattern where, if we attach a single event listener to a parent element and use it to handle events for it's child elements. Instead of adding listeners to many children, we can let the event bubble up and handle it at the parent level.
 
 5. What is the difference between preventDefault() and stopPropagation() methods?
 Answer-5:
